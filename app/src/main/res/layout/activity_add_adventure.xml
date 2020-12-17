@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAdventure">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Add Adventure"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/adventName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/adventCheckpoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Checkpoints"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/adventFrom"
+        app:layout_constraintStart_toStartOf="@+id/adventFrom"
+        app:layout_constraintTop_toBottomOf="@+id/adventLocation" />
+
+    <EditText
+        android:id="@+id/adventFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="From"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/adventTo"
+        app:layout_constraintStart_toStartOf="@+id/adventTo"
+        app:layout_constraintTop_toBottomOf="@+id/adventCheckpoints" />
+
+    <EditText
+        android:id="@+id/adventTo"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="To"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/adventPrice"
+        app:layout_constraintStart_toStartOf="@+id/adventPrice"
+        app:layout_constraintTop_toBottomOf="@+id/adventFrom" />
+
+    <EditText
+        android:id="@+id/adventDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddAdventure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adventPrice" />
+
+    <Button
+        android:id="@+id/btnAddAdventure"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimary"
+
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/companymail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adventDesc" />
+
+    <TextView
+        android:id="@+id/companymail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddAdventure" />
+
+    <EditText
+        android:id="@+id/adventLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Location.."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/adventCheckpoints"
+        app:layout_constraintStart_toStartOf="@+id/adventCheckpoints"
+        app:layout_constraintTop_toBottomOf="@+id/adventName" />
+
+    <EditText
+        android:id="@+id/adventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Adventure Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/adventLocation"
+        app:layout_constraintStart_toStartOf="@+id/adventLocation"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/adventPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/adventDesc"
+        app:layout_constraintStart_toStartOf="@+id/adventDesc"
+        app:layout_constraintTop_toBottomOf="@+id/adventTo" />
+
+    <ImageView
+        android:id="@+id/adventureImage"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnChooseImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/adventFrom"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <Button
+        android:id="@+id/btnChooseImage"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="156dp"
+
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimary"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Choose Image"
+        android:textColor="#FFFFFF"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddAdventure"
+        app:layout_constraintEnd_toEndOf="@+id/adventureImage"
+        app:layout_constraintStart_toStartOf="@+id/adventureImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

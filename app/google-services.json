@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "156169957941",
+    "project_id": "yaatrisnew",
+    "storage_bucket": "yaatrisnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156169957941:android:aedf32ce52e7434e77f77c",
+        "android_client_info": {
+          "package_name": "com.example.yaatris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156169957941-24ttmv5vuq462a194me4qaph9rg9siom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV2yh_svs2mTMzRgQ-RI1wTjCFYjT9fYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156169957941-24ttmv5vuq462a194me4qaph9rg9siom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adventures"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".Adventures">
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_view"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        app:cardCornerRadius="7dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/card_view1">-->
+
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="142dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/media_image"-->
+<!--                android:layout_width="130dp"-->
+<!--                android:layout_height="130dp"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:srcCompat="@drawable/udpr"-->
+<!--                tools:srcCompat="@drawable/udpr" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView14"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Make My Trip "-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/textView15"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView15"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView15"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tour Name "-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/textView16"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView16"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView14" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView16"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="3 Days "-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/textView17"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView17"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView15" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView18"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:text="Rating"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/ratingBar"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/ratingBar"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/ratingBar" />-->
+
+<!--            <RatingBar-->
+<!--                android:id="@+id/ratingBar"-->
+<!--                style="?android:attr/ratingBarStyleSmall"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:isIndicator="true"-->
+<!--                android:max="5"-->
+<!--                android:transformPivotX="0dp"-->
+<!--                android:transformPivotY="0dp"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView16" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView17"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:text="15000 Rs"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/media_image"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView16" />-->
+
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_view1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        app:cardCornerRadius="7dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button">-->
+
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="142dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/media_image1"-->
+<!--                android:layout_width="130dp"-->
+<!--                android:layout_height="130dp"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:srcCompat="@drawable/udpr"-->
+<!--                tools:srcCompat="@drawable/udpr" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView141"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:text="Make My Trip "-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/textView151"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView151"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView151"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tour Name "-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/textView161"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView161"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView141" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView161"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="3 Days "-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/textView171"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView171"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView151" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView181"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:text="Rating"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/ratingBar1"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/ratingBar1"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/ratingBar1" />-->
+
+<!--            <RatingBar-->
+<!--                android:id="@+id/ratingBar1"-->
+<!--                style="?android:attr/ratingBarStyleSmall"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:isIndicator="true"-->
+<!--                android:max="5"-->
+<!--                android:transformPivotX="0dp"-->
+<!--                android:transformPivotY="0dp"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView161" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView171"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:text="15000 Rs"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/media_image1"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView161" />-->
+
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <TextView
+        android:id="@+id/adventuresText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Adventures"
+        android:textColor="@color/textColorHint"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /><![CDATA[
+
+    ... >
+    ]]><!-- A CardView that contains a TextView -->
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimary"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Sort"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adventuresText" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/colorPrimary"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Filter"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
